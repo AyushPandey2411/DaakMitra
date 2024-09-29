@@ -1,0 +1,48 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hi there", "How are you", "Is anyone there?", "Hey", "Hola", "Hello", "Good day"],
+        "responses": ["Hello, welcome to the National Philatelist Platform!", "Good to see you, how can we assist in your philatelic journey?", "Hi, explore philatelic treasures from all over India with us!"],
+        "context": [""]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+        "responses": ["Goodbye, happy collecting!", "Have a nice day, and return soon for the latest philatelic updates!", "Bye! Don't miss out on new releases!"],
+        "context": [""]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+        "responses": ["You're welcome! Happy to assist you in your philatelic quest.", "My pleasure! Let us know if you need more help collecting stamps and postal items."],
+        "context": [""]
+      },
+      {
+        "tag": "national_deposit_account",
+        "patterns": ["What is the National Philately Deposit Account?", "How can I open a Philately Deposit Account?", "Benefits of Philately Deposit Account?", "Tell me about the Philately Account"],
+        "responses": ["The National Philately Deposit Account allows philatelists to access material released across India. Sign up at [insert link] for nationwide access to philatelic items, cancellations, and more."],
+        "context": [""]
+      },
+      {
+        "tag": "philatelic_material",
+        "patterns": ["What new philatelic material is available?", "What items are being released?", "What is the latest philatelic release?", "Tell me about new philatelic items"],
+        "responses": ["The latest philatelic releases are available from all postal circles. Visit [insert link] to explore and order your favorite items."],
+        "context": [""]
+      },
+      {
+        "tag": "postal_circles",
+        "patterns": ["What are the postal circles?", "Which postal circles release philatelic items?", "How do postal circles work?", "Tell me about postal circles in India"],
+        "responses": ["Postal circles in India are regions designated by the postal service for operational purposes. Each postal circle releases its own philatelic material, now accessible nationwide through our website."],
+        "context": [""]
+      },
+      {
+        "tag": "ordering_process",
+        "patterns": ["How can I order philatelic items?", "What is the ordering process?", "Can I order philatelic material online?", "How do I buy philatelic items from other circles?"],
+        "responses": ["You can order philatelic items from any postal circle in India through our centralized platform. Add items to your cart and proceed to checkout to pay and arrange for delivery."],
+        "context": [""]
+      }
+     
+    ]
+  }
+  
